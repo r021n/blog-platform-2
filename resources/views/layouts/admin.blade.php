@@ -42,7 +42,7 @@
         <div>{{ session('error') }}</div>
         @endif
 
-        @yield
+        @yield('content')
     </main>
 </body>
 

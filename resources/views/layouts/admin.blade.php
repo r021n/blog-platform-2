@@ -26,9 +26,9 @@
     <aside>
         <ul>
             <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
-            <li><a href="#">Articles</a></li>
-            <li><a href="#">Categories</a></li>
-            <li><a href="#">Tags</a></li>
+            <li><a href="{{ route('admin.articles.index') }}">Articles</a></li>
+            <li><a href="{{ route('admin.categories.index') }}">Categories</a></li>
+            <li><a href="{{ route('admin.tags.index') }}">Tags</a></li>
             <li><a href="#">Comments</a></li>
         </ul>
     </aside>

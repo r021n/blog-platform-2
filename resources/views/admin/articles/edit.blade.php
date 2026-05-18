@@ -1,3 +1,4 @@
+@use(Illuminate\Support\Facades\Storage)
 @extends('layouts.admin')
 
 @section('title', 'Edit Artikel')
